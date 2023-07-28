@@ -33,7 +33,7 @@ const SideBar: React.FC<SideBarProps> = ({ children, songs }) => {
         href: "/search",
       },
     ],
-    []
+    [pathname]
   );
 
   return (
