@@ -12,7 +12,7 @@ import usePlayer from "@/hooks/usePlayer";
 import { twMerge } from "tailwind-merge";
 interface SideBarProps {
   children: React.ReactNode;
-  songs: Song
+  songs: Song[]
 }
 
 const SideBar: React.FC<SideBarProps> = ({ children, songs }) => {
